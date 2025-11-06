@@ -12,13 +12,11 @@ namespace _3ISIP_323Madanbekov
     using System;
     using System.Collections.Generic;
     
-    public partial class Finance
+    public partial class Products
     {
-        public int FinanceID { get; set; }
-        public string OperationType { get; set; }
-        public decimal Amount { get; set; }
-        public decimal BalanceAfterOperation { get; set; }
-        public System.DateTime OperationDate { get; set; }
-        public string Description { get; set; }
+        public int id { get; set; }
+        public string name { get; set; }
+        public decimal price { get; set; }
+        public int count { get; set; }
     }
 }
